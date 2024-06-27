@@ -10,7 +10,7 @@ en colaboracion con Nahuel Marek
 int esNumero(const char *nro) {
 for (int i=0; i!=strlen(nro); i++){
 		if(isdigit(nro[i])==0){
-		puts("es impostor");
+		puts("No es un numero");
 		return 0;
 	}
 	puts("es numero");
